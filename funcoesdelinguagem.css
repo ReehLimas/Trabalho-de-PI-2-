@@ -17,6 +17,39 @@ body {
   padding: 20px;
 }
 
+.menu a {
+  margin: 0px;
+  padding: px;
+  background-color: #ffffff;
+}
+
+.menu-header {
+  background-color: #333;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu a {
+  color: #000000;
+  font-size: 16px;
+  padding: 10px;
+  margin-right: 0px;
+  border-radius: 0px;
+  background-color: #ffffff;
+  transition: background-color 0.3s ease;
+}
+
+.menu a:hover {
+  background-color: #a8a8a8;
+  color: #000000;
+}
+
+.menu a.active {
+  background-color: #000000;
+  color: #ffffff;
+}
+
 h1, h2 {
   margin-bottom: 10px;
 }
