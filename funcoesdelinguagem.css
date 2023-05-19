@@ -7,19 +7,35 @@
 
 /* Estilos gerais */
 body {
-  font-family: Arial, sans-serif;
-  line-height: 1.5;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 12pt;
+      line-height: 1.5;
+      margin: 0;
+      padding: 0;
 }
 
 .container {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
 }
 
-.menu a {
+.title1 {
+  font-size: 24px;
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+
+.logo {
+  margin-bottom: 20px;
+}
+
+.menuu a {
   margin: 0px;
-  padding: px;
+  padding: 0px;
   background-color: #ffffff;
 }
 
@@ -30,7 +46,8 @@ body {
   justify-content: space-between;
 }
 
-.menu a {
+.menuu a {
+  font-family: Arial, Helvetica, sans-serif;
   color: #000000;
   font-size: 16px;
   padding: 10px;
@@ -40,22 +57,24 @@ body {
   transition: background-color 0.3s ease;
 }
 
-.menu a:hover {
+.menuu a:hover {
   background-color: #a8a8a8;
   color: #000000;
 }
 
-.menu a.active {
+.menuu a.active {
   background-color: #000000;
   color: #ffffff;
 }
 
-h1, h2 {
-  margin-bottom: 10px;
+h2 {
+  font-size: 14pt;
+  font-weight: bold;
 }
 
 p {
-  margin-bottom: 20px;
+  text-align: justify;
+  text-indent: 1.25cm;
 }
 
 /* Estilos do cabeçalho */
