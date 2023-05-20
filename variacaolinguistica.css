@@ -1,158 +1,135 @@
+/* Reset de estilos padrão */
 * {
-    margin: 0;
-    padding: 0;
-  }
-  
-  body {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 16px;
-    line-height: 1.5;
-    background-color: #e5e2d5;
-  }
-  
-  .header {
-    background-image: linear-gradient(to bottom, #333333, #333333);
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    box-shadow: 0px 2px 5px rgba(15, 15, 15, 15);
-  }
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  .title {
-    color: #e5e2d5;
-    font-size: 100px;
-    font-family: 'Times New Roman', Times, serif;
-  }
-  
- /* Estilos para o título da página */
- h1 {
-    font-size: 2em;
-    margin-bottom: 10px;
-    text-align: center;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-    color: #808080;
-  }
-  
-  /* Estilos para os links */
-  a {
-    color: #000000;
-    font-size: 15px;
-    font-weight: bold;
-    text-decoration: none;
-    background: linear-gradient(to bottom, #e5e2d5, #e5e2d5);
-    padding: 10px 20px;
-    border: 2px solid #1d1e20;
-    border-radius: 10px;
-    display: inline-block;
-    text-transform: uppercase;
-    transition: all 0.2s ease;
-  }
-  
-  /* Estilos para os links em hover */
-  a:hover {
-    background: linear-gradient(to bottom, #d4d0be, #b9b7ab);
-    text-shadow: 1px 1px 2px #e5e2d5;
-    transform: scale(1.1);
-  }
-  
-  /* Estilos para os links em active */
-  a:active {
-    transform: translateY(2px);
-    box-shadow: none;
-  }
-  
-  
-  nav a {
-    display: flex;
-    padding: 10px;
-    color: #000000;
-    text-decoration: none;
-  }
-  
-  main {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 20px;
-    padding: 20px;
-  }
-  
-  section {
-    background-color: #fff;
-    padding: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-  
-  h2 {
-    font-size: 1.5em;
-    margin-bottom: 10px;
-  }
-  
-  p {
-    margin-bottom: 10px;
-  }
-  
-  /* Estilos específicos para a seção de Funções de Linguagem */
-  .container {
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto;
-  }
-  
-  #funcoesdelinguagem {
-    grid-row: 1 / 2;
-    grid-column: 1 / 2;
-    margin: 2px;
-  }
-  
-  #variacaolinguistica {
-    grid-row: 1 / 2;
-    grid-column: 2 / 3;
-    margin: 2px;
-  }
-  
-  #preconceitolinguistico {
-    grid-row: 1 / 2;
-    grid-column: 3 / 4;
-    margin: 2px;
-  }
-  
-  #linguagemcoloquial {
-    grid-row: 2 / 3;
-    grid-column: 1 / 2;
-    margin: 2px;
-  }
-  
-  #linguagemcultaecoloquial {
-    grid-row: 2 / 3;
-    grid-column: 2 / 3;
-    margin: 2px;
-  }
-  
-  #linguagemculta {
-    grid-row: 2 / 3;
-    grid-column: 3 / 4;
-    margin: 2px;
-  }
-  
-  #generostextuais {
-    grid-row: 3 / 4;
-    grid-column: 1 / 2;
-    margin: 2px;
-  }
-  
-  #tiposdegenerostextuais {
-    grid-row: 3 / 4;
-    grid-column: 2 / 3;
-    margin: 2px;
-  }
-  
-  #textonarrativo {
-    grid-row: 3 / 4;
-    grid-column: 3 / 4;
-    margin: 3px;
-  }
-  
-  
+/* Estilos gerais */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12pt;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+}
+
+.title1 {
+  font-size: 24px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.logo {
+  margin-bottom: 20px;
+}
+
+.menuu a {
+  margin: 0px;
+  padding: 0px;
+  background-color: #ffffff;
+}
+
+.menu-header {
+  background-color: #333;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menuu a {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000000;
+  font-size: 16px;
+  padding: 10px;
+  margin-right: 0px;
+  border-radius: 0px;
+  background-color: #ffffff;
+  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.menuu a:hover {
+  background-color: #e0e0e0;
+  color: #000000;
+  transform: scale(1.1);
+}
+
+.menuu a.active {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+h1 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+p {
+  text-align: justify;
+  text-indent: 1.25cm;
+}
+
+.referencias {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.reference {
+  margin-bottom: 10px;
+}
+
+.reference h3 {
+  font-size: 12px;
+  margin-bottom: 5px;
+  text-indent: 1.5em;
+}
+
+.reference .italic {
+  font-style: italic;
+}
+
+
+/* Estilos do cabeçalho */
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  margin: 0 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Estilos das seções */
+section {
+  margin-bottom: 40px;
+}
+
+/* Estilos dos links de navegação */
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
