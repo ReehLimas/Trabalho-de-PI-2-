@@ -1,139 +1,140 @@
 /* Reset de estilos padrão */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  /* Estilos gerais */
-  body {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 12pt;
-    line-height: 1.5;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .container {
-    max-width: 800px;
-    color: #000000;
-    margin: 20px auto;
-    padding: 20px;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 20px;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.61)
-  }
-  
-  
-  .title1 {
-    font-size: 24px;
-    font-family: 'Times New Roman', Times, serif;
-  }
-  
-  .logo {
-    margin-bottom: 20px;
-  }
-  
-  .menuu a {
-    margin: 0px;
-    padding: 0px;
-    background-color: #ffffff;
-  }
-  
-  .menu-header {
-    background-color: #333;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .menuu a {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #000000;
-    font-size: 16px;
-    padding: 10px;
-    margin-right: 0px;
-    border-radius: 0px;
-    background-color: #ffffff;
-    transition: background-color 0.3s ease;
-    transition: background-color 0.3s ease, transform 0.3s ease;
-  }
-  
-  .menuu a:hover {
-    background-color: #e0e0e0;
-    color: #000000;
-    transform: scale(1.1);
-  }
-  
-  .menuu a.active {
-    background-color: #000000;
-    color: #ffffff;
-  }
-  
-  h1 {
-    font-size: 20px;
-    font-weight: bold;
-  }
-  
-  p {
-    text-align: justify;
-    text-indent: 1.5cm;
-  }
-  
-  .referencias {
-    font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
-  }
-  
-  .reference {
-    margin-bottom: 10px;
-  }
-  
-  .reference {
-    font-size: 12px;
-    margin-bottom: 5px;
-    text-indent: 1.5em;
-  }
-  
-  .reference .italic {
-    font-style: italic;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  /* Estilos do cabeçalho */
-  .header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-  }
-  
-  nav {
-    display: flex;
-    justify-content: center;
-  }
-  
-  nav a {
-    margin: 0 10px;
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  nav a:hover {
-    text-decoration: underline;
-  }
-  
-  /* Estilos das seções */
-  section {
-    margin-bottom: 40px;
-  }
-  
-  /* Estilos dos links de navegação */
-  a {
-    color: #333;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
-  
+/* Estilos gerais */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12pt;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  background-color: #00000011;
+}
+
+.container {
+  max-width: 800px;
+  background-color: #d1d1d15e;
+  color: #000000;
+  margin: 20px auto;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.61)
+}
+
+
+.title1 {
+  font-size: 24px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.logo {
+  margin-bottom: 20px;
+}
+
+.menuu a {
+  margin: 0px;
+  padding: 0px;
+  background-color: #ffffff;
+}
+
+.menu-header {
+  background-color: #333;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menuu a {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000000;
+  font-size: 16px;
+  padding: 10px;
+  margin-right: 0px;
+  border-radius: 0px;
+  background-color: #ffffff;
+  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.menuu a:hover {
+  background-color: #e0e0e0;
+  color: #000000;
+  transform: scale(1.1);
+}
+
+.menuu a.active {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+h1 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+p {
+  text-align: justify;
+  text-indent: 1.5cm;
+}
+
+.referencias {
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.reference {
+  margin-bottom: 10px;
+}
+
+.reference {
+  font-size: 12px;
+  margin-bottom: 5px;
+  text-indent: 1.5em;
+}
+
+.reference .italic {
+  font-style: italic;
+}
+
+/* Estilos do cabeçalho */
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  margin: 0 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Estilos das seções */
+section {
+  margin-bottom: 40px;
+}
+
+/* Estilos dos links de navegação */
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

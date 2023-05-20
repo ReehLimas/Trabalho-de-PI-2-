@@ -14,7 +14,6 @@ body {
 .container {
   display: flex;
   justify-content: center;
-  height: 500px;
 }
 
 .menu {
@@ -23,6 +22,7 @@ body {
   border-radius: 4px;
   padding: 20px;
   box-sizing: border-box;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.61);
 }
 
 .menu li {
@@ -35,11 +35,13 @@ body {
   font-weight: bold;
   display: block;
   padding: 10px;
-  transition: background-color 0.3s ease, transform 0.3s ease;
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .menu a:hover {
-  background: linear-gradient(to right, #646060, #3b3a3a);
+  background: linear-gradient(to right, #3f3f3f, #3b3a3a);
   color: #fff;
   transform: scale(1.1);
+  box-shadow: 0px 0px 5px rgb(0, 0, 0);
+  border-radius: 5px;
 }
