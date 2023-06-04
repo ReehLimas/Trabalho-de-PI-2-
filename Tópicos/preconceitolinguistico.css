@@ -83,18 +83,41 @@ p {
   font-family: 'Times New Roman', Times, serif;
 }
 
-.reference {
+.reference, .reference1 {
   margin-bottom: 10px;
 }
 
-.reference p {
+.reference, .reference1 {
   font-size: 12px;
-  margin-bottom: 5px;
   text-indent: 1.5em;
 }
 
-.reference p.italic {
+.reference .italic {
   font-style: italic;
+}
+/* Referência 1 */
+.reference1 {
+  position: relative;
+}
+
+.reference1::after {
+  content: attr(data-text);
+  position: absolute;
+  top: -170px;
+  left: -120px;
+  width: 1000px;
+  padding: 10px;
+  margin: 0;
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 13px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.reference1:hover::after {
+  opacity: 1;
 }
 
 /* Estilos do cabeçalho */
