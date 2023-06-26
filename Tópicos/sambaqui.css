@@ -18,7 +18,13 @@
     text-transform: uppercase;
     letter-spacing: 4px;
   }
-  
+
+  .home {
+    background-color: aliceblue;
+    border-radius: 30px;
+    height: 50px;
+  }
+
   nav {
     display: flex;
     justify-content: space-around;

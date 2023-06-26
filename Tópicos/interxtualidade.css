@@ -6,19 +6,11 @@
 }
 
 /* Estilos gerais */
-.header {
-  background-image: url("../img/Fundo Site.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  color: #fff;
-  padding: 20px;
-  text-align: center;
-}
-
-.header img {
-  max-width: 100%;
-  height: auto;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12pt;
+  line-height: 1.5;
+  background-color: #7a3f3f11;
 }
 
 .container {
