@@ -150,6 +150,7 @@
   /* TEXTOS */ 
 
   .container {
+    display: inline-block;
     background-color: rgb(207, 207, 207);
     max-width: 800px;
     color: #000;
@@ -172,5 +173,9 @@
     background-color: rgb(22, 21, 21);
     color:rgba(228, 228, 228, 0.774);
     font-family: Arial, Helvetica, sans-serif;
-    display: block;
+    
+  }
+  footer p{
+    text-align: center;
+    display: inline-block  ;
   }
