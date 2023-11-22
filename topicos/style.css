@@ -128,6 +128,11 @@
   nav {
     display: flex;
     justify-content: center;
+
+  }
+
+  .navs{
+    background-image: url(../img/fundosite.png);
   }
   
   nav a {
