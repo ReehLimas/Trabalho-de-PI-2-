@@ -1,5 +1,5 @@
 body {
-  background-image: url(../Trabalho-de-PI-2-/img/Fundo\ Site.png);
+  background-image: url(../Trabalho-de-PI-2-/img/Fundo/Site.png);
   background-size: cover;
   background-repeat: no-repeat;
   margin: 75px;
@@ -8,10 +8,10 @@ body {
 }
 
 .logo {
-  display: flex;
+  text-align: center;
   justify-content: center;
   align-items: center;
-  
+  background-image: url(img/fundosite.png);
 }
 
 .container {
@@ -20,12 +20,11 @@ body {
 }
 
 .menu {
-  background-color: #202020;
   text-align: center;
   border-radius: 4px;
   padding: 30px;
   box-sizing: border-box;
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.61);
+  background-color: rgb(37, 37, 37);
 }
 
 .menu a {
@@ -38,14 +37,9 @@ body {
 }
 
 .menu a:hover {
-  background: linear-gradient(to right, #3f3f3f, #3b3a3a);
   color: #ffffff;
   transform: scale(1.1);
   box-shadow: 0px 0px 5px rgb(0, 0, 0);
   border-radius: 5px;
 }
 
-nav{
-  background-image: url(img/fundosite.png);
-  
-}
