@@ -45,6 +45,7 @@ body {
 .logo {
   margin-bottom: 20px;
   background-image: url(../img/fundosite.png);
+  text-align: center;
 }
 
 .menu a {
