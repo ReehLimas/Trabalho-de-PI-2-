@@ -120,7 +120,7 @@
   
   /* Estilos do cabeçalho */
   .header {
-    background-image: url("../img/Fundo\ Site.png");
+    background-image: url("../img/Fundo\ fundosite.png");
     color: #fff;
     padding: 20px;
   }
@@ -169,3 +169,4 @@ nav ul li:first-child{
     margin: 0 30vw;
   }
 }
+
